@@ -1,0 +1,81 @@
+
+body {
+	font-family: Futura, Lucida Grande, Audrey;
+	margin-left: 4em;
+	margin-top: 4em;
+	background: black;
+}
+h1 {
+	font-family: Futura, Lucida Grande, Audrey;
+font-weight: bold;
+	color: white;
+	font-size: 5em;
+	text-transform: capitalize;
+}
+h2 {
+	font-size: 3.8em;
+	color: white;
+}
+h3 {
+	font-size: 3.2em;
+	font-weight: normal;
+	color: red;
+}
+h4 {
+	font-size: 3em;
+	font-weight: normal;
+	color: white;
+}
+h5 {
+	font-size: 2.5em;
+	font-weight: normal;
+	color: white;
+}
+h6 {
+	font-size: 2em;
+	font-weight: normal;
+	color: white;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.6;
+	margin-bottom: 1.5em;
+	max-width: 40em;
+	color: white;
+	span { color: red
+}
+
+code {
+	font-family: monospace;
+	font-size: 0.8em;
+	letter-spacing: .1em;
+}
+
+STYLING
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+</style>
+</head>
+<body>

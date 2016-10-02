@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Paul Rand</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a name="top"></a>
+	<header>
+		<h1 id="page-name">Paul Rand</h1>
+
+		<nav>
+			<ul>
+				<li><a href="#">Home</a>
+				</li>
+                <li><a href="bio.html">Bio</a>
+				</li>
+				<li><a href="designs.html">Designs</a>
+				</li>
+				<li><a href="quotes.html">quotes</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<blockquote cite="http://en.wikipedia.org/wiki/John_James_Audubon">
+		“April 26, 1785–January 27, 1851, was an American ornithologist, naturalist, and painter. He was notable for his expansive studies to document all types of American birds and for his detailed illustrations that depicted the birds in their natural habitats.”—
+		<a
+			href="http://en.wikipedia.org/wiki/John_James_Audubon">Wikipedia</a>
+	</blockquote>
+
+	<section id="main">
+
+		<figure>
+			<a href="images/brown-pelican/brooklynmuseum-o84160i000-64.98.1_PS1.jpg">
+				<img src="images/brown-pelican/brooklynmuseum-o84160i000-64.98.1_PS1_thumb.jpg" />
+			</a>
+			<figcaption>
+				<em>Brown Pelican</em>, 1835. Aquatint in color, approx.: 27 x 40 in.
+			</figcaption>
+		</figure>
+
+    <figure>
+      <a href="images/canada-goose/brooklynmuseum-o84161i000-64.98.2_PS2.jpg">
+  			<img src="images/canada-goose/brooklynmuseum-o84161i000-64.98.2_PS2_thumb.jpg" />
+  		</a>
+      <figcaption>
+        <em>Canada Goose</em>. Aquatint, Sheet: 35 3/4 x 24 3/4 in.
+      </figcaption>
+    </figure>
+
+    <figure>
+      <a href="images/american-robin/brooklynmuseum-o84162i000-64.98.3_PS1.jpg">
+  			<img src="images/american-robin/brooklynmuseum-o84162i000-64.98.3_PS1_thumb.jpg" />
+  		</a>
+      <figcaption>
+        <em>American Robin</em>, 1832. Aquatint in color, approx.: 27 x 40 in.
+      </figcaption>
+    </figure>
+
+		<p class="copyright">
+			Images from the <a href="https://archive.org/details/brooklynmuseum">Brooklyn Museum</a> archive.org collection.
+		</p>
+	</section>
+<a href="#top">Back to top of page</a>
+	<footer>
+        Website designed by Amenda Wong
+	</footer>
+  
+</body>
+</html>

@@ -5,7 +5,7 @@ body {
     margin-left: 2em;
 	max-width: 40em;
 	color: deeppink;
-	background: papayawhip;
+	background: linear-gradient(lightyellow, papayawhip, pink);
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 1em;

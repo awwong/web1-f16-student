@@ -1,8 +1,8 @@
-p {
+body {
 	font-size: 1em;
 	line-height: 1.5;
 	margin-bottom: 1.5em;
     margin-left: 2em;
 	max-width: 40em;
-	color: black;
-	background: white;
+	color: deeppink;
+	background: papayawhip;

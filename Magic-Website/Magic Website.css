@@ -97,8 +97,9 @@ li{
     position: fixed;
     overflow: top;
 }
-li a:hover{
+nav li a{
+    padding: 1em;
+}
+nav li a:hover{
     background-color: gainsboro;
-    float: left;
-    display: block;
 }

@@ -20,19 +20,22 @@ body {
 	background-color: gray;
 	margin: 0; 
 	padding: 0;
+    max-width: 100em;
 	}
 p { 
 	margin-right: 0; 
 	text-align: justify;
     margin-bottom: 1.25em;
-    
+    line-height: 1.45em;
+    max-width: 100em;
 	}
 h3 { 
 	font: bold 1.6em georgia, sans-serif;
 	letter-spacing: 0.25px; 
-	margin-bottom: 0.5em; 
+	margin-bottom: 0.5em;
 	color: gold;
-    background-color: aliceblue; 
+    background-color: aliceblue;
+    max-width: 300em;
 	}
 a{
     font-size: 1.3em;
@@ -62,7 +65,7 @@ abbr {
 .page-wrapper { 
 	background: url(pics/orange.jpg) no-repeat top left;
 	padding: 0 175px 0 110px;  
-	margin: 0; 
+	margin: 0;
 	position: relative;
 	}
 
@@ -105,16 +108,18 @@ header {
 	clear: both; 
 	margin: 20px 20px 20px 10px; 
 	width: 160px; 
-	float: left;
+	float: center;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
+     background-color: rgba(240,248,255, 0.3);
 	}
 
 .preamble {
 	clear: right; 
 	padding: 0px 10px 0 10px;
+    background-color: rgba(240,248,255, 0.3);
 	}
 .supporting {	
 	padding-left: 10px; 
@@ -200,3 +205,6 @@ footer a:link, footer a:visited {
 	width: 148px; 
 	height: 110px;
 	}
+.main supporting{
+     background-color: rgba(240,248,255, 0.3);
+}

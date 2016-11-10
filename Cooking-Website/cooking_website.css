@@ -1,3 +1,53 @@
+#test h1 {
+    
+	font-family: georgia, avenir, arial, sans-serif;
+font-weight: bold;
+	color: #fdcf18;
+	font-size: 5em;
+	text-transform: capitalize;
+    text-decoration: none;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+        
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:2;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:2;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:2;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 2;
+    }
+}
+
 .foodname{
     display: none;
     position:absolute;
@@ -5,7 +55,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1em;
+    padding: 2em;
     background-color: rgba(240,248,255, 0.8);
 }
 .item:hover .foodname{
@@ -36,6 +86,8 @@ font-weight: bold;
 	font-size: 5em;
 	text-transform: capitalize;
     text-decoration: none;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
 }
 h2 {
 	font-size: 3.5em;

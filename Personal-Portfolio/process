@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+        
+      
+      <link type="text/css" rel="stylesheet" href="personal-portfolio.css"/>
+		<title>
+			personal portfolio
+		</title>
+    
+<div id="nav">
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" data-bubble="2">Goals/Process</a></li>
+        <li><a href="#" data-bubble="0">Experimental Projects</a></li>
+        <li><a href="#" data-bubble="0">Inspirations</a></li>
+<!--        <li><a href="#" href="#" data-bubble="1">Favorites</a></li>-->
+    </ul>
+</div>
+      
+      <div id="test">    
+   	<div class="container">
+		<header>
+			<h1 id="fittext1">Amenda Wong's Portfolio Page</h1>
+		</header>
+	</div>
+      </div>

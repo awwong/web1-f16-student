@@ -13,3 +13,4 @@ for (var i = 0; i < waveCount; i++){
 
 ocean.appendChild(docFrag);
 
+$("#fittext1").fitText(1.2); 

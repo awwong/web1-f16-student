@@ -43,7 +43,7 @@ img {
     background-color: #222;
     box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
     display: block;
-    height: 100%;
+    width: 50%;
     -webkit-transition: .5s;
 }
 figure:hover img {
@@ -365,9 +365,10 @@ p {
 	margin-bottom: 1.5em;
     margin-left: auto;
     margin-right: auto;
+    padding: 3em;
     display: block;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
 	color: rgb(196, 153, 0);
 	background: none;
     object-position: bottom;
@@ -387,8 +388,11 @@ footer{
     text-align: center;
 }
 a{
-    text-decoration: none;
+    text-decoration: underline;
+    display: block
+    object-position: center;
     color: black;
-    background-color: #ff59bc;
-    padding: 3em;
+    background-color: none;
+    padding: 45%;
+    max-width: 80%;
 }

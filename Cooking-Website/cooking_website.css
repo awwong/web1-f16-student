@@ -1,3 +1,15 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1140px;
+    display: block;
+    font-size: 10px:
+}
+@media only screen and (max-width:500px)
+    .container{
+    display-inline;    
+} 
+
 #test h1 {
     
 	font-family: georgia, avenir, arial, sans-serif;
@@ -83,7 +95,7 @@ h1 {
 	font-family: georgia, avenir, arial, sans-serif;
 font-weight: bold;
 	color: #fdcf18;
-	font-size: 5em;
+	font-size: 20px;
 	text-transform: capitalize;
     text-decoration: none;
     padding-top: 1.5em;
